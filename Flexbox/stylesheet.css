@@ -23,8 +23,10 @@ ul {
   }
   .flex-list{
     display:flex;
+    flex-wrap:wrap;
   }
-  .flex-list{
+  .flex-list li{
       flex: auto;
+      width: 50%;
   }
   
