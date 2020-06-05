@@ -23,10 +23,17 @@ ul {
   }
   .flex-list{
     display:flex;
-    flex-wrap:wrap;
   }
   .flex-list li{
       flex: auto;
-      width: 50%;
   }
+  /* making sites responsive for smaller devices*/
+  @media (max-width: 1000px) { 
+     .flex-list{
+      flex-wrap: wrap; 
+     }
+        .flex-list li{
+      width:50%;
+    }
+   }
   
