@@ -24,4 +24,7 @@ ul {
   .flex-list{
     display:flex;
   }
+  .flex-list{
+      flex: auto;
+  }
   
