@@ -28,6 +28,7 @@ ul {
       flex: auto;
   }
   /* making sites responsive for smaller devices*/
+  /* The media query for tablet devices */
   @media (max-width: 1000px) { 
      .flex-list{
       flex-wrap: wrap; 
@@ -36,4 +37,12 @@ ul {
       width:50%;
     }
    }
+  @media(max-width: 670px){
+      .flex-list{
+          flex-direction: column;
+      }
+      .flex-list li{
+          margin:0 auto;
+      }
+  }
   
