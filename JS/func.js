@@ -9,3 +9,10 @@ const greet = function() {
     console.log("I am Velda");
   };
   hello();
+
+  //arrow functions
+  const greet = () => {
+    console.log("Hello!");
+    
+  }
+  greet();
