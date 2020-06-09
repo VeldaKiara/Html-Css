@@ -41,5 +41,9 @@ console.log(animals);
 //referencing arrays using index
 console.log(animals[0]);
 console.log(animals[2]);
+//updating values in an array
+animals[2]="rabbit";
+console.log(animals[2]);
+
 
 
