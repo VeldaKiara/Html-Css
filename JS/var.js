@@ -38,5 +38,8 @@ for (let number = 1; number <= 100 ; number ++) {
 //arrays 
 const animals=["dog", "cat", "sheep"];
 console.log(animals);
+//referencing arrays using index
+console.log(animals[0]);
+console.log(animals[2]);
 
 
