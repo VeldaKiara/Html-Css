@@ -38,12 +38,20 @@ for (let number = 1; number <= 100 ; number ++) {
 //arrays 
 const animals=["dog", "cat", "sheep"];
 console.log(animals);
+
 //referencing arrays using index
 console.log(animals[0]);
 console.log(animals[2]);
+
 //updating values in an array
 animals[2]="rabbit";
 console.log(animals[2]);
+
+//iteration plus indexing
+const animals = ["dog", "cat", "sheep"];
+for(let i = 0; i < 3; i++){
+  console.log(animals[i])
+}
 
 
 
