@@ -16,3 +16,10 @@ const greet = function() {
     
   }
   greet();
+
+  
+//arguments and parameters
+const greet = name =>{
+    console.log(`Hello, ${name}`);
+  }
+  greet("Master White");
