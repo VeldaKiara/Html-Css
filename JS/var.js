@@ -34,3 +34,9 @@ for (let number = 1; number <= 100 ; number ++) {
     console.log(number)
   }
 }
+
+//arrays 
+const animals=["dog", "cat", "sheep"];
+console.log(animals);
+
+
