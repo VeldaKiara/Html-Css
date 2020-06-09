@@ -23,3 +23,13 @@ const greet = name =>{
     console.log(`Hello, ${name}`);
   }
   greet("Master White");
+
+  //multiple arguments
+  const add = (number1, number2) => {
+    console.log(number1 + number2);
+    
+    
+  };
+  add(5, 7);
+  
+  
