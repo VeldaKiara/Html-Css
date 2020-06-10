@@ -50,3 +50,15 @@ if (check(123)) {
 } else {
   console.log("Not a multiple of 3");
 }
+//scope of func
+const name = "Ken the Ninja";
+
+const introduce = (name) => {
+  console.log(`I am ${name}`);
+  
+  
+};
+
+introduce("Master White");
+
+console.log(name)
