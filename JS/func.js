@@ -37,6 +37,16 @@ const greet = name =>{
     
   };
   
-  const result = half(130);
-  console.log(`Half of 130 is ${result}`);
+const result = half(130);
+console.log(`Half of 130 is ${result}`);
   
+  //multiples of 3
+  const check = (number) => {
+     return number % 3 === 0;
+  
+  };
+if (check(123)) {
+  console.log("Multiple of 3");
+} else {
+  console.log("Not a multiple of 3");
+}
