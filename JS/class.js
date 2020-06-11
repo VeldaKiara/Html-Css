@@ -49,12 +49,17 @@ const animal ={
           }
       }
     class Dog extends Animal {
+        getHumanAge(){
+            return this.age*7;
+          }
   
     }
 
       const animal = new Animal("Mocha", 8);
       const dog = new Dog("Leo", 4);
       dog.info();
+      const humanAge = dog.getHumanAge();
+      console.log(`I am ${humanAge} years old in human years`);
       console.log(`Name: ${animal.name}`);
       console.log(`Age: ${animal.age}`);
       animal.info();
