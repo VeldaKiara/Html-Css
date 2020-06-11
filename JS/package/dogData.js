@@ -1,6 +1,13 @@
+import readlineSync from "readline-sync";
 import Dog from "./Sep_files/dog.js";
 
 const dog1 = new Dog("Leo", 4, "Chihuahua");
-const dog2 = new Dog("Ben", 2, "Poodle");
+
+const name = readlineSync.question("Enter your name: ");
+const age = readlineSync.questionInt("Enter your age: ");
+const breed = readlineSync.question("Enter your breed: ");
+
+const dog2 = new Dog(name, age, breed);
+
 
 export { dog1, dog2};
