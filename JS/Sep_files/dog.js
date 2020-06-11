@@ -1,4 +1,4 @@
-import Animal from "./Sep_files/animal.js"
+import Animal from "./Sep_files/animal.js";
 
 class Dog extends Animal {
   constructor(name, age, breed) {
