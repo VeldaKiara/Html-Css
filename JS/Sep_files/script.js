@@ -1,4 +1,2 @@
-import Dog from "./Sep_files/dog.js";
-
-const dog = new Dog("Leo", 4, "Chihuahua");
+import dog from "./Sep_files/dogData.js";
 dog.info();
