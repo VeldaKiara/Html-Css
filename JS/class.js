@@ -19,4 +19,16 @@ const animal ={
     }
     
     const animal = new Animal();
-    
+
+    //template strings, classes and constructors plus instances
+    class Animal {
+        constructor() {
+           this.name = "Leo";
+           this.number = 3;
+          
+        }
+      }
+      
+      const animal = new Animal();
+      console.log(`Name: ${animal.name}`);
+      console.log(`Age: ${animal.number}`);
