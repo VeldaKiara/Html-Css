@@ -39,9 +39,13 @@ const animal ={
           this.name = name;
           this.age = age;
         }
+        greet(){
+            console.log("Hello");
+          }
       }
       
-      const animal = new Animal("mocha", 8);
+      const animal = new Animal("Mocha", 8);
       
       console.log(`Name: ${animal.name}`);
       console.log(`Age: ${animal.age}`);
+      animal.greet();
