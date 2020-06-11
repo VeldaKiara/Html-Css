@@ -24,11 +24,24 @@ const animal ={
     class Animal {
         constructor() {
            this.name = "Leo";
-           this.number = 3;
+           this.age = 3;
           
         }
       }
       
       const animal = new Animal();
       console.log(`Name: ${animal.name}`);
-      console.log(`Age: ${animal.number}`);
+      console.log(`Age: ${animal.age}`);
+
+    //passing arguments in constructors and calling them through objects using parameters
+    class Animal {
+        constructor(name, age) {
+          this.name = name;
+          this.age = age;
+        }
+      }
+      
+      const animal = new Animal("mocha", 8);
+      
+      console.log(`Name: ${animal.name}`);
+      console.log(`Age: ${animal.age}`);
