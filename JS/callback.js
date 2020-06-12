@@ -39,4 +39,13 @@ const printKen = () => {
   call(() => {
     console.log("Master White");
   });
+  
+  // arguments of callback func
+  const call = (callback) => {
+    callback("Ken the Ninja", 14);
+  };
+  
+  call((name, age) => {
+    console.log(`${name} is ${age} years old.`);
+  });
 
